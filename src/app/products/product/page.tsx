@@ -3,7 +3,7 @@
 const SingleProductPage = () => {
     return (
         <div>
-            This is my single product page
+          <h1 className=" text-3xl text-center">  This is my single product page</h1>
         </div>
     );
 };
