@@ -1,11 +1,11 @@
 import Link from 'next/link';
 
-const Navbar = () => {
+const Sidebar = () => {
     return (
-        <nav className="bg-gray-800 p-4">
-            <ul className="flex space-x-4 justify-center">
+        <nav className="bg-gray-800 h-screen w-64 p-4">
+            <ul className="flex flex-col space-y-4">
                 <li>
-                    <Link  href="/about" className="text-white hover:text-gray-400">
+                    <Link href="/about" className="text-white hover:text-gray-400">
                         About
                     </Link>
                 </li>
@@ -14,7 +14,6 @@ const Navbar = () => {
                         Counter
                     </Link>
                 </li>
-                
                 <li>
                     <Link href="/products" className="text-white hover:text-gray-400">
                         Product
@@ -32,7 +31,7 @@ const Navbar = () => {
                 </li>
                 <li>
                     <Link href="/dashboard/settings" className="text-white hover:text-gray-400">
-                        Setting
+                        Settings
                     </Link>
                 </li>
             </ul>
@@ -40,4 +39,4 @@ const Navbar = () => {
     );
 };
 
-export default Navbar;
+export default Sidebar;

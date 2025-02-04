@@ -1,8 +1,9 @@
+import React from 'react';
 
 const SettingsPage = () => {
     return (
         <div>
-            This is my profile setting page
+            <h1 className="text-center text-3xl">this is Settings page</h1>
         </div>
     );
 };
