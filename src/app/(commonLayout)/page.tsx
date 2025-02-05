@@ -4,7 +4,7 @@ const HomePage = () => {
   return (
     <div>
       <h2 className="text-3xl font-semibold">
-        Hello this is nazim 
+        Welcome to Champ home page 
       </h2>
     </div>
   );

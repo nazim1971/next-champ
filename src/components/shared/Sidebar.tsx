@@ -4,6 +4,11 @@ const Sidebar = () => {
     return (
         <nav className="bg-gray-800 h-screen w-64 p-4">
             <ul className="flex flex-col space-y-4">
+            <li>
+                    <Link href="/" className="text-white hover:text-gray-400">
+                        Home
+                    </Link>
+                </li>
                 <li>
                     <Link href="/about" className="text-white hover:text-gray-400">
                         About
@@ -17,6 +22,11 @@ const Sidebar = () => {
                 <li>
                     <Link href="/products" className="text-white hover:text-gray-400">
                         Product
+                    </Link>
+                </li>
+                <li>
+                    <Link href="/gallery" className="text-white hover:text-gray-400">
+                      Gallery
                     </Link>
                 </li>
                 <li>
