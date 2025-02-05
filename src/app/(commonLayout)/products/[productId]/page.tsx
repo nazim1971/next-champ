@@ -1,16 +1,14 @@
 
 
-const DynamicProductPage = async({params, searchParams}) => {
+const DynamicProductPage = () => {
 
-    const productId = await params.productId;
 
-    console.log(searchParams);
 
-    return (
-        <div>
-          <h1 className="text-3xl text-center">  This is dynamic product page {productId} .</h1>
-        </div>
-    );
+  return (
+    <div>
+      <h1 className="text-3xl text-center">This is dynamic product page .</h1>
+    </div>
+  );
 };
 
 export default DynamicProductPage;

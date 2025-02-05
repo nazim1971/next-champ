@@ -1,7 +1,11 @@
 import Sidebar from '@/components/shared/Sidebar';
-import React from 'react';
+import React, { ReactNode } from 'react';
 
-const Dashboardlayout = ({children}) => {
+interface IDashboardLayout {
+    children: ReactNode;
+  }
+
+const Dashboardlayout = ({children}: IDashboardLayout) => {
     return (
         <div className='flex'>
             <Sidebar/>
