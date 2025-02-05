@@ -1,13 +1,45 @@
 {
-    "posts": [
-      { "id": "1", "title": "a title", "views": 100 },
-      { "id": "2", "title": "another title", "views": 200 }
-    ],
-    "comments": [
-      { "id": "1", "text": "a comment about post 1", "postId": "1" },
-      { "id": "2", "text": "another comment about post 1", "postId": "1" }
-    ],
-    "profile": {
-      "name": "typicode"
-    }
+    "products": [
+      {
+        "id": 1,
+        "productName": "UltraPro X15",
+        "category": "Laptop",
+        "brand": "TechPro",
+        "price": 1200,
+        "image": "https://res.cloudinary.com/dfvgxf4dc/image/upload/v1738594184/wnzcmf8jribbd6ywlccw.jpg"
+      },
+      {
+        "id": 2,
+        "productName": "SmartVision A20",
+        "category": "Smartphone",
+        "brand": "VisionTech",
+        "price": 800,
+        "image": "https://res.cloudinary.com/dfvgxf4dc/image/upload/v1738594184/wnzcmf8jribbd6ywlccw.jpg"
+      },
+      {
+        "id": 3,
+        "productName": "PowerSound Z5",
+        "category": "Headphones",
+        "brand": "AudioMax",
+        "price": 150,
+        "image": "https://res.cloudinary.com/dfvgxf4dc/image/upload/v1738594184/wnzcmf8jribbd6ywlccw.jpg"
+      },
+      {
+        "id": 4,
+        "productName": "GigaBoost RTX",
+        "category": "Graphics Card",
+        "brand": "GameTech",
+        "price": 700,
+        "image": "https://res.cloudinary.com/dfvgxf4dc/image/upload/v1738594184/wnzcmf8jribbd6ywlccw.jpg"
+      },
+      {
+        "id": 5,
+        "productName": "EliteTab S10",
+        "category": "Tablet",
+        "brand": "TabMaster",
+        "price": 500,
+        "image": "https://res.cloudinary.com/dfvgxf4dc/image/upload/v1738594184/wnzcmf8jribbd6ywlccw.jpg"
+      }
+    ]
   }
+  
